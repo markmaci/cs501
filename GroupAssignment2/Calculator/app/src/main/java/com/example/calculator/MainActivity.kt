@@ -70,7 +70,7 @@ fun CalculatorApp(modifier: Modifier = Modifier) {
             onValueChange = { },
             modifier = Modifier.fillMaxWidth(),
             readOnly = true,
-            textStyle = MaterialTheme.typography.headlineMedium.copy(fontSize = 100.sp)
+            textStyle = MaterialTheme.typography.headlineMedium.copy(fontSize = 60.sp)
         )
         CalculatorButtons(
             onButtonClick = { label ->
